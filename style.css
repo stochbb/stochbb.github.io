@@ -35,7 +35,7 @@ a:hover {
 
 #header h1 { padding-left: 1em; padding-top: 1em; font-size: 1.7em; color: #31799F; }
 #header h1 a { font-size: 1.7em; color: #31799F; text-decoration: none;}
-#header h2 { padding-left: 1em; padding-top: 0px; font-size: 1.3em; color: #fff; }
+#header h2 { padding-left: 1em; padding-top: 0em; font-size: 1.3em; color: #fff; }
 
 #menu {
  text-align: center;
@@ -84,6 +84,16 @@ a:hover {
   padding-bottom: 0.5em;
 }
 
+#content ol {
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+}
+
+#content ul {
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+}
+
 #footer { 
  margin-top: 2.5em;
  clear: both;
@@ -106,4 +116,10 @@ font: Arial, Helvetica, sans-serif;
  padding: 1em 0 0 0;
 }
 
-
+#content pre {
+	font-family: monospace;
+	background-color: #eee;
+	padding: .75em;
+	margin: 0em;
+	margin-bottom: 0.5em;
+}
